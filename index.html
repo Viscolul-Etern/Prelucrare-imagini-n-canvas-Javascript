@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tema 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body onload="asincFetch()">
+    <button onclick="asincFetch()">Generate</button>
+    <div id="container" class="container">
+
+        <img id="image" width="500" height="400">
+
+        <canvas id="canvas" width="500" height="400"></canvas>
+        <canvas id="canvas2" width="500" height="400"></canvas>
+
+    </br>
+    </div>
+    <div>
+    <h3>Brightness Factor(-1,1):</h3>
+    <input type="range" min="-1" max="1" step="0.01" onclick=" apllyBrightness()" id="luminozitate">
+    <h3 id="af"></h3>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

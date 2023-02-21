@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#container
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+img
+{
+    border: 3px solid green;
+}
+
+#canvas{
+    border: 3px solid red;
+}
+
+#canvas2
+{
+    border: 3px solid blue;
+}
+
+h3{
+    color: white;
+}
+
+div
+{
+    text-align: center;
+}
+
+
+
+  
+
+
+
+
+
